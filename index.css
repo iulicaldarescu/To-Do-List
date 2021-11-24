@@ -1,0 +1,28 @@
+.add {
+    visibility: hidden;
+}
+
+.add2{
+    visibility: visible;
+}
+
+
+.textInput {
+    margin-top: 50px;
+    text-align: center;
+    outline: none;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+
+.list {
+    margin-top: 50px;
+}
+    
+    
+
+
+
+
+
