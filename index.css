@@ -1,3 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 50px;
+}
+
 .add {
     visibility: hidden;
 }
@@ -9,6 +19,7 @@
 
 .textInput {
     margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
     outline: none;
     border-top: hidden;
@@ -16,8 +27,45 @@
     border-right: hidden;
 }
 
-.list {
-    margin-top: 50px;
+
+
+.close {
+    background-color: rgb(236, 10, 10);
+    right: 0;
+    top: 0;
+    position: absolute;
+    padding: 12px 16px 12px 16px;
+    
+}
+
+.close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
+ul {
+    margin: 0;
+    padding: 0;
+  }
+
+ul li {
+    cursor: pointer;
+    list-style-type: none;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li:nth-child(odd) {
+    background: lightskyblue;
+}
+
+  ul li:hover {
+    background: #ddd;
 }
     
     
